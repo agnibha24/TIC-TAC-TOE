@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tic Tac Toe JS</title><link rel="preload" as="image" imagesrcset="https://developergoutam.com/wp-content/uploads/2024/05/Screenshot-202024-05-23-20224856-1.png 638w, https://developergoutam.com/wp-content/uploads/2024/05/Screenshot-202024-05-23-20224856-1-600x320.png 600w, https://developergoutam.com/wp-content/uploads/2024/05/Screenshot-202024-05-23-20224856-1-300x160.png 300w, https://developergoutam.com/wp-content/uploads/2024/05/Screenshot-202024-05-23-20224856-1-150x80.png 150w, https://developergoutam.com/wp-content/uploads/2024/05/Screenshot-202024-05-23-20224856-1-450x240.png 450w" imagesizes="(max-width: 749px) 100vw, 749px" /><link rel="preload" as="font" href="https://developergoutam.com/wp-content/themes/smart-mag/css/icons/fonts/ts-icons.woff2?v2.8" type="font/woff2" crossorigin="anonymous" />
+  <link rel='stylesheet'
+    href='https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-bootstrap/0.5pre/assets/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div id="main">
+    <h1>Tic Tac Toe</h1>
+    <div id="scoreBoard">
+      <p>X's score: <span id="scoreX">0</span></p>
+      <p>O's score: <span id="scoreO">0</span></p>
+    </div>
+    <div id="gameModeSelection">
+      <button id="twoPlayerMode">Two Player Mode</button>
+      <button id="playerComputerMode">Player vs Computer</button>
+    </div>
+    <div id="playerInfo">
+      <input type="text" id="player1Name" placeholder="Enter player 1 name">
+      <input type="text" id="player2Name" placeholder="Enter player 2 name" style="display: none;">
+    </div>
+    <div id="gameBoard">
+      <div class="cell" id="cell1"></div>
+      <div class="cell" id="cell2"></div>
+      <div class="cell" id="cell3"></div>
+      <div class="cell" id="cell4"></div>
+      <div class="cell" id="cell5"></div>
+      <div class="cell" id="cell6"></div>
+      <div class="cell" id="cell7"></div>
+      <div class="cell" id="cell8"></div>
+      <div class="cell" id="cell9"></div>
+    </div>
+    <button id="newGame">New Game</button>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+
+</body>
+
+</html>
